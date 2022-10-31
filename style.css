@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header-all .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: #ddf1eb;
+}
+.header-all .top a{
+    color: #000;
+}
+.header-all .top i{
+    margin-left: 10px
+}
+.header-all .middle{
+    padding: 5rem;
+    text-align: center;
+}
+.header-all .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+.header-all .bottom nav a{
+    margin-left: 20px;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.header-all .bottom i{
+    margin-left: 20px
+}
